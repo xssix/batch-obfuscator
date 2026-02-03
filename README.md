@@ -2,18 +2,20 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Obfuscation-Extreme-red?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Stability-100%25-green?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Python-3.x-blue?style=for-the-badge&logo=python" />
+  <img src="https://img.shields.io/badge/Platform-Windows-0078D6?style=for-the-badge&logo=windows" />
 </p>
 
-### 🚀 Usage
-1. Put your script in the folder.
-2. Run:
+### �️ How to use
+1. Put your `.bat` script in the folder.
+2. Run this command:
    ```bash
    python batruscator_core.py your_file.bat
    ```
-3. Get output from `output/obfuscated.bat`.
+3. Get the result from `output/obfuscated.bat`.
 
 ### ⚙️ Config (`config.json`)
+Customize your settings here:
 ```json
 {
     "loader_inflation_count": 5,
@@ -28,15 +30,21 @@
 }
 ```
 
-| Key | What it does |
+| Setting | What it does |
 | :--- | :--- |
-| `loader_inflation_count` | More starting junk. |
-| `inline_junk_min/max` | Junk lines per line. |
-| `inter_line_inflation_chance` | Random noise chance. |
-| `map_count` | Number of variable tables. |
-| `obfuscation_intensity` | How much is encoded. |
-| `one_line` | Makes it a wall of code. |
-| `enable_decoration` | Adds @@ and ; prefixes. |
+| `loader_inflation_count` | Adds junk code to the top. |
+| `inline_junk_min/max` | Junk added per line. |
+| `inter_line_inflation_chance` | Chance for random noise between lines. |
+| `map_count` | Number of variable tables used. |
+| `obfuscation_intensity` | How much of the code gets scrambled. |
+| `one_line` | Smushes everything onto one line. |
+| `enable_decoration` | Adds extra @ and ; symbols. |
 
-![Stars](https://img.shields.io/github/stars/70gd/Batruscator?style=flat-square&color=yellow)
-![Size](https://img.shields.io/github/repo-size/70gd/Batruscator?style=flat-square)
+---
+
+<p align="center">
+  <img src="https://img.shields.io/github/issues/70gd/Batruscator?style=flat-square&color=orange" />
+  <img src="https://img.shields.io/github/last-commit/70gd/Batruscator?style=flat-square&color=green" />
+  <img src="https://img.shields.io/github/repo-size/70gd/Batruscator?style=flat-square&color=blue" />
+  <img src="https://img.shields.io/github/license/70gd/Batruscator?style=flat-square" />
+</p>
